@@ -1,2 +1,12 @@
 #ifndef INVERNADERO_H
 #define INVERNADERO_H
+
+    #include <iostream>
+    using namespace std;
+
+
+    enum EstadoDispositivo : uint8_t {
+        OK = 0,
+        DESCONECTADO = 1,
+        VALOR_INVALIDO = 2
+    };
