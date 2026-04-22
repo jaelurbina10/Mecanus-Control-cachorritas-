@@ -10,3 +10,22 @@
         DESCONECTADO = 1,
         VALOR_INVALIDO = 2
     };
+
+
+
+    class Sensor {
+    protected:
+        int id;
+            EstadoDispositivo estado;
+            float lastReading;
+
+    public:
+        Sensor(int id);
+        ~Sensor() {}
+
+        virtual float leerValor() = 0;
+        EstadoDispositivo obtenerEstado();
+        virtual bool validarRango(float valor) = 0;
+        int obtenerID();
+        float readLastReading();
+    };
