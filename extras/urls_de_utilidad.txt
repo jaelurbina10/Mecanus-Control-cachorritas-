@@ -1,0 +1,3 @@
+FORMATO MARKDOWN
+https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown
+
