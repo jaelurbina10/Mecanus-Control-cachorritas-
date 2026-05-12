@@ -15,7 +15,7 @@ concreta de sensores y actuadores para el conrtrol de temperatura, humedad, ph e
 >[!IMPORTANT]
 >
 >La libreria **LIA** requiere de `SR_Keypad.h` y sus dependencias (`PISO.h` & `SIPO.h`) para funcionar correctamente.
-### Inicio Rapido (Ejemplo de uso)
+## Inicio Rapido (Ejemplo de uso)
 Para utilizar la libreria de manera adecuada, sigue la siguiente implementacion como ejemplo:
 ```
 //ESTE CODIGO NO ES EL EJEMPLO REAL, ES UN EJEMPLO DEL EJEMPLO. CORREGIR DESPUES
@@ -51,7 +51,7 @@ void loop() {
     delay(300);
 }
 ```
-### Referencia API
+## Referencia API
 #### Clase `ControladorInvernadero`
 | Metodo | Que hace? | Ejemplo |
 |--- |--- |--- |
@@ -66,5 +66,5 @@ void loop() {
 >Para los actuadores como `BombaAgua` o `LuzUv`, tambien se dispone de los metodos `.encender.()` & `.apagar()` heredados de la clase `Actuador`.
 #### Clase `SR_Keypad::Controller`
 Aqui va la misma tabla de arriba pero para lo de como usar el teclado con la libreria
-### Licencia
+## Licencia
 #### MIT - Puede usar, modificar y distribuir esta licencia sin restricciones.
